@@ -1,0 +1,63 @@
+# -------------------------
+# Quartus Project Files
+# -------------------------
+*.qpf
+*.qsf
+*.qws
+*.rpt
+*.smsg
+*.summary
+*.bak
+*.v.bak
+
+# Quartus build directories
+db/
+incremental_db/
+output_files/
+simulation/
+screenshots/
+ss/
+screenshot/
+*/db/
+*/incremental_db/
+*/output_files/
+*/simulation/
+*/screenshots/
+*/ss/
+*/screenshot/
+
+# -------------------------
+# Temporary, Backup, Cache
+# -------------------------
+*~
+*.swp
+*.tmp
+*.log
+
+# -------------------------
+# Lab Reports and Documents
+# -------------------------
+*.pdf
+*.docx
+
+# -------------------------
+# OS / Editor Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# -------------------------
+# Misc
+# -------------------------
+# Ignore all report/notes files
+Unit*/**/*.pdf
+Unit*/**/*.docx
+
